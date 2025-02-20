@@ -1,0 +1,16 @@
+html, body {
+  padding: 5px;
+  margin: 5px;
+  background-color: black;
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6{
+  color: blueviolet;
+}
+
+p{
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  font-size: large;
+}
