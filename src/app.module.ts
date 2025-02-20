@@ -25,7 +25,9 @@ ServeStaticModule.forRoot({
  }),
 
     //MongooseModule.forRoot('mongodb://localhost:27017'),
-    MongooseModule.forRoot(process.env.MONGODB),
+    MongooseModule.forRoot(process.env.MONGODB, {
+      dbName: 'pokemonsdb'
+    }),
 
 PokemonModule,
 
